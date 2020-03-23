@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
 
-
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://duxug.github.io/favicon.ico?v=1584971279969">
-<link rel="stylesheet" href="https://duxug.github.io/styles/main.css">
+<head>
+  <meta charset="utf-8">
 
   <title>文章归档 | 大海边沙雕幼儿园</title>
 
@@ -14,29 +11,33 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="shortcut icon" href="https://duxug.github.io/favicon.ico?v=1584946804786">
-  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="https://duxug.github.io/styles/main.css">
 
 
 
-  <link rel="stylesheet" href="/styles/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
   <meta name="description" content="">
 </head>
 
-      <div class="sidebar" :class="{ 'full-height': menuVisible }">
-  <div class="top-container" data-aos="fade-right">
-    <div class="top-header-container">
-      <a class="site-title-container" href="https://duxug.github.io">
-        <img src="https://duxug.github.io/images/avatar.png?v=1584971279969" class="site-logo">
-        <h1 class="site-title">大海边沙雕幼儿园</h1>
-      </a>
-      <div class="menu-btn" @click="menuVisible = !menuVisible">
-        <div class="line"></div>
-      </div>
-    </div>
-    <div>
-      
-        
+<body>
+  <div id="app" class="main">
+
+    <div class="sidebar" :class="{ 'full-height': menuVisible }">
+      <div class="top-container" data-aos="fade-right">
+        <div class="top-header-container">
+          <a class="site-title-container" href="https://duxug.github.io">
+            <img src="https://duxug.github.io/images/avatar.png?v=1584946804786" class="site-logo">
+            <h1 class="site-title">大海边沙雕幼儿园</h1>
+          </a>
+          <div class="menu-btn" @click="menuVisible = !menuVisible">
+            <div class="line"></div>
+          </div>
+        </div>
+        <div>
           <a href="/" class="site-nav">
             首页
           </a>
