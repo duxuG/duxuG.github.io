@@ -6,7 +6,9 @@
 
   <title>关于 | 大海边沙雕幼儿园</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://duxug.github.io/favicon.ico?v=1584971279969">
+<link rel="stylesheet" href="https://duxug.github.io/styles/main.css">
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -41,6 +43,20 @@
         <div>
 
 
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://duxug.github.io">
+        <img src="https://duxug.github.io/images/avatar.png?v=1584971279969" class="site-logo">
+        <h1 class="site-title">大海边沙雕幼儿园</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
           <a href="/" class="site-nav">
             首页
           </a>
