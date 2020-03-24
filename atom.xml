@@ -2,13 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://duxug.github.io</id>
     <title>大海边沙雕幼儿园</title>
-    <updated>2020-03-23T14:08:16.707Z</updated>
+    <updated>2020-03-24T09:07:40.135Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://duxug.github.io"/>
     <link rel="self" href="https://duxug.github.io/atom.xml"/>
     <logo>https://duxug.github.io/images/avatar.png</logo>
     <icon>https://duxug.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 大海边沙雕幼儿园</rights>
+    <entry>
+        <title type="html"><![CDATA[HTML简介]]></title>
+        <id>https://duxug.github.io/post/html-001/</id>
+        <link href="https://duxug.github.io/post/html-001/">
+        </link>
+        <updated>2020-03-24T08:06:42.000Z</updated>
+        <summary type="html"><![CDATA[<p><strong>HTML是什么</strong>🚩</p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>HTML是什么</strong>🚩</p>
+<!-- more -->
+<p>HTML 是用来描述网页的一种语言。</p>
+<ul>
+<li>📃HTML 指的是超文本标记语言 (Hyper Text Markup Language)</li>
+<li>HTML 不是一种编程语言🎰，而是一种标记语言 (markup language)</li>
+<li>HTML 文件的文件扩展名为.htm 或.html📕</li>
+</ul>
+<!-- more -->
+<p><strong>HTML的用处</strong>🚩</p>
+<!-- more -->
+<p>超文本标记语言（HTML）是用于在 Internet 上显示 Web 页面的主要标记语言。换句话说，✏️网页就是HTML 文档✏️，用于通过 Web 浏览器显示文本，图像或其他资源。所有 HTML 都是纯文本，可以由人类阅读，但是并不友好。</p>
+<!-- more -->
+<p><strong>HTML标签长什么样子</strong>💡</p>
+<!-- more -->
+<ul>
+<li>HTML 标签是由尖括号包围的关键词，比如<code>&lt;html&gt;</code></li>
+<li>HTML 标签有成对出现的，比如<code>&lt;b&gt;</code>和<code>&quot;&lt;/b&gt;</code>，也有单独出现的<code>&lt;br/&gt;，&lt;img/&gt;</code></li>
+<li>HTML标签语法是宽松的，容忍其中出现一点小错误。⏰</li>
+</ul>
+<!-- more -->
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
         <id>https://duxug.github.io/post/about/</id>
